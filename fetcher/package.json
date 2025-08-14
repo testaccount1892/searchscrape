@@ -1,21 +1,12 @@
 {
   "name": "medical-search",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Node.js tool that searches the web and ranks trusted medical sources first",
   "main": "medical-search.js",
   "type": "module",
   "scripts": {
     "start": "node medical-search.js \"asthma treatment\""
   },
-  "keywords": [
-    "medical",
-    "search",
-    "nhs",
-    "trusted",
-    "api"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.3.2"
   }
